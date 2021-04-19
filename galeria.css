@@ -1,0 +1,51 @@
+.wrapper {
+  width: 500px;
+  background-color: white;
+  font-family: "Orelega One", cursive;
+}
+.head {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  height: 50px;
+  width: 470px;
+  justify-content: center;
+  margin-left: 15px;
+}
+.head > * {
+  margin: 0;
+}
+.head > i {
+  font-size: 25px;
+}
+.head > h5 {
+  width: 450px;
+  margin-left: 6px;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+.body > img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon > i,
+.iizq {
+  font-size: 25px;
+  margin-top: 15px;
+  margin: 10px 5px 10px 5px;
+}
+
+.description,
+.likes {
+  margin: 6px;
+}
